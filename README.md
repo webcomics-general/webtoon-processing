@@ -44,3 +44,9 @@ python3 -m webtoon_processing --help
 ```
 
 To uninstall, delete the directory containing the package `webtoon_processing`, and optionally delete the directory containing your Python virtual environment, if you are using one.
+
+## Note
+
+[gallery-dl](https://github.com/mikf/gallery-dl) is another command-line Python program that can be used instead of Webtoon Downloader to download the chapters of webcomics hosted on Webtoon. It supports many other image hosting sites too.
+
+I have heard very good things about it, however I have never used it myself, and I have programmed Webtoon Processing to work on the output of Webtoon Downloader before I became aware of gallery-dl. I have never tried using Webtoon Processing on the output of gallery-dl, but it should work the same.
